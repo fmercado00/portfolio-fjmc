@@ -1051,6 +1051,9 @@ section {
 .img-certificate {
   width: 50%;
 }
+.img-about {
+  width: 100%;
+}
 .resume-certification {
   display: flex;
   width: 50%;
