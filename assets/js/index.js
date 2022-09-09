@@ -35,7 +35,8 @@ $(document).ready(function () {
                 break;
         
                 case "1":
-                    endpointUrl =  "https://localhost:7013/api/DetectLanguage"; // "https://franciscomercado.eco2.mx/api/api/DetectLanguage";
+                    // endpointUrl =  "https://localhost:7013/api/DetectLanguage";
+                    endpointUrl =  "https://franciscomercado.eco2.mx/api/api/DetectLanguage";
                     $.ajax({
                         type: "POST",
                         url: endpointUrl,
@@ -80,7 +81,8 @@ $(document).ready(function () {
                     });
                     break;
                     case "2":
-                    endpointUrl =  "https://localhost:7013/api/GetPhrases"; // "https://franciscomercado.eco2.mx/api/api/GetPhrases";
+                    // endpointUrl =  "https://localhost:7013/api/GetPhrases";
+                    endpointUrl =  "https://franciscomercado.eco2.mx/api/api/GetPhrases";
                     $.ajax({
                         type: "POST",
                         url: endpointUrl,
@@ -115,7 +117,8 @@ $(document).ready(function () {
                     });
                     break;
                     case "3":
-                    endpointUrl =  "https://localhost:7013/api/GetRecognizedEntities"; // "https://franciscomercado.eco2.mx/api/api/GetRecognizedEntities";
+                    // endpointUrl =  "https://localhost:7013/api/GetRecognizedEntities";
+                     endpointUrl =  "https://franciscomercado.eco2.mx/api/api/GetRecognizedEntities";
                     $.ajax({
                         type: "POST",
                         url: endpointUrl,
@@ -150,7 +153,8 @@ $(document).ready(function () {
                     });
                     break;
                     case "4":
-                    endpointUrl =  "https://localhost:7013/api/GetRecognizedLinkedEntities"; // "https://franciscomercado.eco2.mx/api/api/GetRecognizedLinkedEntities";
+                    // endpointUrl =  "https://localhost:7013/api/GetRecognizedLinkedEntities";
+                    endpointUrl =  "https://franciscomercado.eco2.mx/api/api/GetRecognizedLinkedEntities";
                     $.ajax({
                         type: "POST",
                         url: endpointUrl,
@@ -187,7 +191,8 @@ $(document).ready(function () {
                     });
                     break;
                     case "5":
-                    endpointUrl =  "https://localhost:7013/api/GetSentiment"; // "https://franciscomercado.eco2.mx/api/api/GetSentiment";
+                    // endpointUrl =  "https://localhost:7013/api/GetSentiment";
+                    endpointUrl =  "https://franciscomercado.eco2.mx/api/api/GetSentiment";
                     $.ajax({
                         type: "POST",
                         url: endpointUrl,
